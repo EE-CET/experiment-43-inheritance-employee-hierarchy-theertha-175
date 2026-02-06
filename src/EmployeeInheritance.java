@@ -5,7 +5,7 @@ class Employee {
     int age;
     long phoneNumber;
     String address;
-    int salary;
+    float salary;
 
     void printSalary() {
         System.out.println(salary);
@@ -28,9 +28,9 @@ public class EmployeeInheritance {
         officer.name = sc.nextLine();
         officer.age = sc.nextInt();
         officer.phoneNumber = sc.nextLong();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
         officer.address = sc.nextLine();
-        officer.salary = sc.nextInt();
+        officer.salary = sc.nextFloat();
         sc.nextLine();
         officer.specialization = sc.nextLine();
 
@@ -40,7 +40,7 @@ public class EmployeeInheritance {
         manager.phoneNumber = sc.nextLong();
         sc.nextLine();
         manager.address = sc.nextLine();
-        manager.salary = sc.nextInt();
+        manager.salary = sc.nextFloat();
         sc.nextLine();
         manager.department = sc.nextLine();
 
